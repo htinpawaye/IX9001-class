@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Form</title>
+	</head>
+
+	<body>
+
+		<fieldset>
+			<legend align="center">This is a sample form</legend>
+		<h2>Form</h2>
+		<form action="" method="" enctype="multipart/form_date">
+
+			<label for="firstname">First Name</label>
+			<input type="text" name="firstname" id="firstname" class="" placeholder="Enter First Name" autocomplete="off" minlength="3" maxlength="15" /><br/><br/>
+
+			<label for="lastname">Last Name</label>
+			<input type="text" name="lastname" id="lastname" class="lastname" placeholder="Enter Last Name" autocomplete="off"/><br/><br/>
+
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" class="email" placeholder="Email & Phone No" required autocomplete="off"/><br/><br/>
+
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" class="password" placeholder="Enter Your Password" required  /><br/><br/>
+
+			<label >Age</label>
+			<input type="number" name="age" id="age" class="" placeholder="Enter Your Age" min="1" max="100" /><br/><br/>
+			<label for="gender">Gender</label>
+			<input type="radio" name="gender" id="genderm" class="" checked value="1" required /><label for="genderm">Male</label>
+			<input type="radio" name="gender" id="genderf" class="" value="2" /><label for="genderf">Female</label>
+			<input type="radio" name="gender" id="gendero" class="" value="3" /><label for="gendero">Other</label><br/><br/>
+
+			<label>Hobbies</label>
+			<input type="checkbox" name="hobbies" id="hobby" class="" checked value="sg" /><label for="hobby">Singing</label>
+			<input type="checkbox" name="hobbies" id="hobbym" class="" value="mv" /><label for="hobbym">Movie</label>
+			<input type="checkbox" name="hobbies" id="hobbyd" class="" value="dr" required /><label for="hobbyd">Drawing</label><br/><br/>
+
+			<label for="country">Country</label>
+			<select name="country" id="country" class="">
+				<option disabled selected>Choose Your Country</option>
+				<option value="mm">Myanmar</option>
+				<option value="kr">Korea</option>
+				<option value="jp">Japan</option>
+				<option value="in">India</option>
+				<option value="th">Thailand</option>
+			</select><br/><br/>
+
+			<label for="date">Date</label>
+			<input type="date" name="date" id="date" class=""/><br/><br/>
+
+			<label for="nrc">NRC Front</label>
+			<input type="file" name="nrc" id="nrc" class=""/>
+
+			<label for="nrc1">NRC Back</label>
+			<input type="file" name="nrc1" id="nrc1" class="" multiple /><br/><br/>
+
+			<input type="reset" name="reset" id="reset" class="" value="Cancel" />
+			<input type="submit" name="submit" id="submit" class="" value="Log In" /><br/><br/>
+			<button type="reset">Back</button>
+			<button type="submit">Continue</button>
+		</form>
+		</fieldset>
+
+	</body>
+
+</html>
